@@ -1,29 +1,33 @@
-# vue-project
+# 🚀 Calculadora Simples
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto foi desenvolvido como exercício prático no curso da **EBAC**, com o objetivo de criar uma **calculadora simples** utilizando o framework **Vue.js**.  
+A aplicação permite realizar operações básicas de **adição**, **subtração**, **multiplicação** e **divisão** entre dois números.
 
-## Recommended IDE Setup
+## 🛠️ Tecnologias Utilizadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- ⚡ [Vite](https://vitejs.dev/) – Build tool para otimizar performance
+- 🌐 [Vue.js](https://vuejs.org/) – Framework progressivo para construção de interfaces de usuário
+- 🎨 [Bootstrap](https://getbootstrap.com/) – Framework CSS para estilização responsiva e componentes prontos
 
-## Customize configuration
+## 📋 Funcionalidades
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Entrada dinâmica de dois números**: campos para inserir os valores a serem calculados
+- **Operações básicas**: suporte a adição, subtração, multiplicação e divisão
+- **Exibição do resultado**: mostra o resultado da operação escolhida
 
-## Project Setup
+## 📦 Instalação e Execução
+
+Para rodar o projeto localmente, siga os passos abaixo:
 
 ```sh
+# Clone este repositório
+git clone https://github.com/CauaMotta/curso_ebac_exercicio_vuejs
+
+# Acesse a pasta do projeto
+cd curso_ebac_exercicio_vuejs
+
+# Instale as dependências
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Execute o projeto
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
